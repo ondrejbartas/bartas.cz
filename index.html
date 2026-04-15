@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ondřej Bartas — Software Engineer, Prague</title>
-  <meta name="description" content="Ondřej Bartas — Software Engineer based in Prague. Currently at Prusa Research & Dotidot.">
+  <meta name="description" content="Ondřej Bartas — Software Engineer at Prusa Research, building Printables.com and PrusaSlicer. Based in Prague.">
   <style>
     * {
       margin: 0;
@@ -117,6 +117,46 @@
       height: 18px;
     }
 
+    .projects {
+      margin-bottom: 2rem;
+    }
+
+    .projects h2 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #aaa;
+      margin-bottom: 0.75rem;
+    }
+
+    .projects a {
+      display: block;
+      text-decoration: none;
+      color: #1a1a1a;
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      transition: background 0.2s;
+    }
+
+    .projects a:hover {
+      background: rgba(118, 75, 162, 0.06);
+    }
+
+    .projects a + a {
+      margin-top: 0.25rem;
+    }
+
+    .projects a strong {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .projects a span {
+      font-size: 0.82rem;
+      color: #888;
+    }
+
     .phone {
       color: #888;
       font-size: 0.85rem;
@@ -164,9 +204,21 @@
     <div class="divider"></div>
 
     <p class="bio">
-      Building things at <strong>Prusa Research</strong> & <strong>Dotidot</strong>.
+      Software engineer at <strong>Prusa Research</strong>, building products I love.
       Passionate about open source, clean code, and solving real-world problems with software.
     </p>
+
+    <div class="projects">
+      <h2>Projects I work on</h2>
+      <a href="https://www.printables.com" target="_blank" rel="noopener">
+        <strong>Printables.com</strong>
+        <span>The community platform for 3D printing models</span>
+      </a>
+      <a href="https://www.prusa3d.com/page/prusaslicer_424/" target="_blank" rel="noopener">
+        <strong>Prusa EasyPrint</strong>
+        <span>Slicing software for 3D printing made easy</span>
+      </a>
+    </div>
 
     <div class="links">
       <a class="github" href="https://github.com/ondrejbartas" target="_blank" rel="noopener">
